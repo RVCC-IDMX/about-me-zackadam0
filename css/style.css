@@ -1,0 +1,30 @@
+body{
+    font-family: "Open Sans", sans-serif;
+    background-color:#676F78;
+    color: #3491FA;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 50pt;
+}
+
+header{
+    text-align: center;
+}
+
+#hero, footer{
+    text-align: center;
+    border: 5px solid #1A477A;
+    padding: 10px;
+    background-color: #2A73C7;
+    color: #1A477A;
+}
+
+#hero img{
+    width: 400px;
+}
+
+#bio{
+    text-align: center;
+}
