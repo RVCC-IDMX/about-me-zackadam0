@@ -6,6 +6,11 @@ body{
 
 h1, h2, h3, h4, h5, h6{
     font-family: "Bebas Neue", sans-serif;
+    font-size: 25pt;
+    text-align: center;
+}
+
+h1{
     font-size: 50pt;
 }
 
@@ -27,4 +32,25 @@ header{
 
 #bio{
     text-align: center;
+}
+
+#hobbies ul{
+    display: inline;
+    padding: 2pt;
+    text-align: center;
+}
+
+#hobbies ul li:nth-child(3n){
+    color: #1A477A; 
+    padding: 3pt;
+}
+
+#hobbies ul li:nth-child(3n+1){
+    color: #000000; 
+    padding: 3pt;
+}
+
+#hobbies ul li:nth-child(3n+2){
+    color: #3491FA; 
+    padding: 3pt;
 }
