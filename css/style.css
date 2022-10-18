@@ -81,3 +81,37 @@ header{
     text-align:center;
     color:#000000;
 }
+
+/*Literature Section*/
+
+#lit{
+    border: 5px solid #1A477A;
+    margin-bottom: 5pt;
+}
+
+#lit div{
+    padding: 1rem;
+    max-width:50rem;
+    text-align: center;
+    margin:0 auto;
+}
+
+/*Dropcap*/
+
+#lit p:first-child{
+    text-align: left;
+}
+
+#lit div p:first-child:first-letter{
+    color:#3491FA;
+    float:left;
+    font-size: 50pt;
+    font-family: "Grenze Gotisch", cursive;
+    clear:both;
+    padding: 8pt;
+    border: 5px ridge #1A477A;
+    margin-right: 5pt;
+    line-height: .6;
+    background-image: radial-gradient(#676F78,#000000);
+    text-shadow: 5px 5px rgba(0,0,0,.5);
+}
