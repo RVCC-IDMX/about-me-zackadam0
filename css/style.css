@@ -1,7 +1,7 @@
 body{
     font-family: "Open Sans", sans-serif;
-    background-color:#676F78;
-    color: #3491FA;
+    background-color:#a4aab1;
+    color: #1b6fce;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -40,7 +40,7 @@ header{
 }
 
 #bio h2{
-    color:#3491FA;
+    color: #1b6fce;
 }
 
 /*Hobbies section*/
@@ -62,7 +62,7 @@ header{
 }
 
 #hobbies ul li:nth-child(3n+2){
-    color: #3491FA; 
+    color: #1b6fce; 
     padding: 3pt;
 }
 
