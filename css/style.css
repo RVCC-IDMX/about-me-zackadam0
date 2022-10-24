@@ -14,6 +14,10 @@ h1{
     font-size: 50pt;
 }
 
+h2{
+    margin: .1em;
+}
+
 header{
     text-align: center;
 }
@@ -29,7 +33,7 @@ header{
 }
 
 #hero img{
-    width: 400px;
+    width: 300px;
 }
 
 /*Bio Section*/
@@ -45,8 +49,14 @@ header{
 
 /*Hobbies section*/
 
+#hobbies{
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;    
+}
+
 #hobbies ul{
-    display: inline;
+    list-style-type: square;
     padding: 2pt;
     text-align: center;
 }
@@ -98,7 +108,7 @@ header{
 
 /*Dropcap*/
 
-#lit p:first-child{
+#lit p{
     text-align: left;
 }
 
@@ -114,4 +124,24 @@ header{
     line-height: .6;
     background-image: radial-gradient(#676F78,#000000);
     text-shadow: 5px 5px rgba(0,0,0,.5);
+}
+
+
+@media screen and (min-width: 60em){
+
+    figure{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
+    figcaption{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5rem;
+        margin-left: 1rem;
+    }
+
+
+
 }
